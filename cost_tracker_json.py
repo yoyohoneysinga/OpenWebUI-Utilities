@@ -1,18 +1,3 @@
-"""
-title: Cost Tracker for Open WebUI
-description: This function is designed to manage and calculate the costs associated with user interactions and model usage in a Open WebUI.
-author: bgeneto
-author_url: https://github.com/bgeneto/open-webui-cost-tracker
-funding_url: https://github.com/open-webui
-version: 0.3.0
-license: MIT
-requirements: requests, tiktoken, cachetools, pydantic
-environment_variables:
-disclaimer: This function is provided as is without any guarantees.
-            It is your responsibility to ensure that the function meets your requirements.
-            All metrics and costs are approximate and may vary depending on the model and the usage.
-"""
-
 import hashlib
 import json
 import os
